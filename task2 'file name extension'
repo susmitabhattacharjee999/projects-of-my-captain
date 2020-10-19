@@ -1,0 +1,11 @@
+fn = input("enter file name")
+f = fn.split(".")
+a = f[-1]
+if(a == 'py') : 
+ print("extension is python")
+elif(a == 'js') :
+ print("extension is javascript")
+elif(a == 'txt') :
+ print("extension is text") 
+else:
+ print("extension is " + f[-1])
